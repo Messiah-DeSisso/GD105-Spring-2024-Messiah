@@ -1,4 +1,6 @@
-//Truism - "FEAR IS THE GREATEST INCAPACITATOR"
+int blue = #0000FF;
+
+
 void setup(){
   // TODO: set the canvas size to something nice and big,
   // but smaller than your screen
@@ -17,26 +19,45 @@ void setup(){
 void draw(){
   // TODO: paint the background a solid color
     background(0);
+    
+   
+    
+    
+  
+    translate(-80, 120);
     textSize(70);
     textAlign(CENTER);
     rotate(-.3);
+    fill(255);
     text("TSU SURF", 400, 200);
     
-    
+    fill(blue);
+    rect(265, 215, 260, 100);
+    fill(255);
     textSize(100);
     textAlign(CENTER);
     text("BARS", 400, 300);
     
-    textSize(100);
-    textAlign(CENTER);
-    text("ON", 475, 400);
+
     
-    textSize(100);
+    fill(blue);
+    rect(265, 415, 260, 100);
+    
     textAlign(CENTER);
+    fill(255);
     text("I-95", 400, 500);
     
     textSize(70);
     textAlign(CENTER);
-    text("FREESTYLE", 400, 600);
+    fill(255);
+    textSize(60);
+    text("FREESTYLE", 400, 580);
+  
+    fill(255);
+    rect(350, 305, 250, 120);
+    textSize(100);
+    textAlign(CENTER);
+    fill(0);
+    text("ON", 475, 400);
     
 }
